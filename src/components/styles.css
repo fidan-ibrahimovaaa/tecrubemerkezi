@@ -1,0 +1,35 @@
+
+
+.single_product {
+  box-shadow: 1px 1px 4px 1px grey;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.single_product h3 {
+  color: crimson;
+}
+
+.select_filter {
+  text-align: center;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.select_filter select {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  width: -100px;
+  height: 50px;
+  background: rgb(12, 127, 147);
+  margin-top:100%;
+  margin-left: -43%;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
