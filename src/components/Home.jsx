@@ -165,7 +165,7 @@ const Home = () => {
       <section className="programs">
         <div className="program-heading">
           <h2>TƏCRÜBƏ PROQRAMLARI</h2>
-          <button><Link to='/program'>Bütün təcrübə elanları</Link></button>
+          <button><Link to='/prog'>Bütün təcrübə elanları</Link></button>
         </div>
         <div className="program-wrapper">
           {programsData.map((program, i) => (
@@ -233,13 +233,13 @@ const Home = () => {
             </div>
             <div className="info-title">
               <p className='title'>
-                Müsahibədən öncə şirkət haqda bunları öyrənin...
+              Bu gün ofisimizdə Ulu Öndər Heydər Əliyevin 100 illik yubileyinə həsr etdiyimiz "Karyera planlaması" mövzusunda iş müsahibəsinə hazırlıq təlimi baş tutdu...
               </p>
             </div>
             <div className="package-main">
               <div className="details">
                 <i class="fa-solid fa-calendar-days"></i>
-                <p className="detail">24/06/2022</p>
+                <p className="detail">15/05/2023</p>
               </div>
             </div>
           </div>
@@ -250,13 +250,13 @@ const Home = () => {
             </div>
             <div className="info-title">
               <p className='title'>
-                Karyera Hədəflərini reallığa çevirmənin yolu...
+              8-10 iyun tarixlərində “Baku Crystal Hall”da “Heydər Əliyev və Azərbaycan sahibkarlığı” mövzusunda keçiriləcək yerli şirkətlərin tanıtım sərgisində biz də varıq!...
               </p>
             </div>
             <div className="package-main">
               <div className="details">
                 <i class="fa-solid fa-calendar-days"></i>
-                <p className="detail">24/06/2022</p>
+                <p className="detail">20/05/2023</p>
               </div>
             </div>
           </div>
@@ -267,19 +267,19 @@ const Home = () => {
             </div>
             <div className="info-title">
               <p className='title'>
-                İş axtararkən vaxtı necə idarə etməli?
+              Karyera və İşə Hazırlıq Mərkəzinin "Logitrans" şirkəti ilə birgə təşkil etdiyi "Logistika ixtisası üzrə inkişaf proqramı" uğurla başladı...
               </p>
             </div>
             <div className="package-main">
               <div className="details">
                 <i class="fa-solid fa-calendar-days"></i>
-                <p className="detail">24/06/2022</p>
+                <p className="detail">02/05/2023</p>
               </div>
             </div>
           </div>
         </div>
         <div className="info-package">
-          <Link to='/pricing'>Ətraflı</Link>
+          <Link to='/news'>Ətraflı</Link>
         </div>
       </section>
 

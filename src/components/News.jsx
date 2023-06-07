@@ -34,7 +34,7 @@ const News = () => {
             <div className="package-main">
               <div className="details">
                 <i class="fa-solid fa-calendar-days"></i>
-                <p className="detail">15/05/2022</p>
+                <p className="detail">15/05/2023</p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const News = () => {
             <div className="package-main">
               <div className="details">
                 <i class="fa-solid fa-calendar-days"></i>
-                <p className="detail">20/05/2022</p>
+                <p className="detail">20/05/2023</p>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const News = () => {
             <div className="package-main">
               <div className="details">
                 <i class="fa-solid fa-calendar-days"></i>
-                <p className="detail">02/05/2022</p>
+                <p className="detail">02/05/2023</p>
               </div>
             </div>
           </div>

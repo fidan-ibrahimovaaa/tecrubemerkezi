@@ -3,7 +3,7 @@ import video from '../images/karyera-video.mp4'
 import insta from '../images/instagram.png'
 import linkedin from '../images/linkedinn.png'
 import facebook from '../images/facebook.png'
-
+import diplom2 from '../images/diplom2.jpeg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -38,7 +38,7 @@ const OperatorPanel = () => {
 
       <div className="operator-mobil-section">
             <div className="__image">
-                <img src="https://res.cloudinary.com/dn2b3gtui/image/upload/q_100/v1684948582/photo1684942771_lkkwcn.jpg" alt="operator panel" />
+                <img src={diplom2} alt="operator panel" />
             </div>
 
             <div className="__description">

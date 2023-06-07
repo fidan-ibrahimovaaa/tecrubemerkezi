@@ -3,7 +3,9 @@ import insta from '../images/instagram.png'
 import linkedin from '../images/linkedinn.png'
 import facebook from '../images/facebook.png'
 import video from '../images/karyera-video.mp4'
-
+import register from '../images/register.jpeg'
+import lesson from '../images/lesson.jpeg'
+import lesson2 from '../images/lesson2.jpeg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -27,13 +29,13 @@ const ControlPanel = () => {
                     </div>
 
                     <div className="__image">
-                        <img src="https://res.cloudinary.com/dn2b3gtui/image/upload/q_100/v1684937104/photo1684932994_1_zesupp.jpg" alt="" />
+                        <img src={lesson} alt="" />
                     </div>
                 </div>
 
                 <div className="class-section">
                     <div className="__image">
-                        <img src="https://res.cloudinary.com/dn2b3gtui/image/upload/q_100/v1684941602/photo1684939570_evtr8t.jpg" alt="" />
+                        <img src={register} alt="" />
                     </div>
 
                     <div className="__description">
@@ -49,7 +51,7 @@ const ControlPanel = () => {
                     </div>
 
                     <div className="__image">
-                        <img src="https://res.cloudinary.com/dn2b3gtui/image/upload/q_100/v1684941755/photo1684939571_nqd9lp.jpg" alt="" />
+                        <img src={lesson2} alt="" />
                     </div>
                 </div>
 

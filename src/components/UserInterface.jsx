@@ -3,7 +3,8 @@ import video from '../images/karyera-video.mp4'
 import insta from '../images/instagram.png'
 import linkedin from '../images/linkedinn.png'
 import facebook from '../images/facebook.png'
-
+import kollektiv from '../images/kollektiv.jpeg'
+import oyun from '../images/oyun.jpeg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -28,7 +29,7 @@ const UserInterface = () => {
                             <p>Səmimi kollektivlə işləmək imkanı</p>
                         </div>
                         <div className="__image" data-aos="fade-left" data-aos-delay="300">
-                            <img src="https://res.cloudinary.com/dn2b3gtui/image/upload/q_100/v1684935895/photo1684932994_4_lebm0a.jpg" alt="kollektiv" />
+                            <img src={kollektiv} alt="kollektiv" />
                         </div>
                     </div>
 
@@ -59,7 +60,7 @@ const UserInterface = () => {
                         </div>
 
                         <div className="__image" data-aos="zoom-in" data-aos-delay="400">
-                            <img src="https://res.cloudinary.com/dn2b3gtui/image/upload/q_100/v1684935254/photo1684932994_2_nubqrs.jpg"  />
+                            <img src={oyun}  />
                         </div>
                     </div>
 
